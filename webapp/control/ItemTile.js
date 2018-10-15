@@ -2,9 +2,8 @@ sap.ui.define([
 	"sap/ui/core/Control",
 	"sap/m/GenericTile",
 	"sap/m/Text",
-	"sap/m/TileContent",
-	"sap/m/MessageToast"
-	], function (Control, GenericTile, Text, TileContent, MessageToast) {
+	"sap/m/TileContent"
+	], function (Control, GenericTile, Text, TileContent) {
 		"use strict";
 		
 		return Control.extend("TestProject.TestProject.control.ItemTile", {
