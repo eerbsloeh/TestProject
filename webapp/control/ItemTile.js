@@ -30,6 +30,7 @@ sap.ui.define([
 					press : this._onPress.bind(this)
 				});
 				oTile.setHeader(this.getHeader());
+				oTile.setHeader(this.getHeader());
 				this.oDescriptionText = new Text();
 				oTile.addTileContent(new TileContent().setContent(this.oDescriptionText));
 				this.setAggregation("_tile", oTile);
