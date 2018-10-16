@@ -2,8 +2,9 @@ sap.ui.define([
 	"sap/ui/core/Control",
 	"sap/m/GenericTile",
 	"sap/m/Text",
-	"sap/m/TileContent"
-	], function (Control, GenericTile, Text, TileContent) {
+	"sap/m/TileContent",
+	"sap/m/MessageToast"
+	], function (Control, GenericTile, Text, TileContent, MessageToast) {
 		"use strict";
 		
 		return Control.extend("TestProject.TestProject.control.ItemTile", {
@@ -59,6 +60,102 @@ sap.ui.define([
 				oRm.renderControl(oControl.getAggregation("_text"));
 				
 				oRm.write("</div>");
+			},
+			
+			onTest : function(oTest) {
+				
+				var i = 0;
+				
+				i = 1;
+				MessageToast.show("Dies ist ein eindeutiger Test");
+				
+				var s = "ich will jetzt wirklich wissen, wie viel" + 
+					"das hier kann";
+					
+				var ss = "bisher hat es micht nämlich nicht " +
+					"sonderlich überzeugt";
+					
+				var sss = "die analyse mag zwar automatisch triggern...";
+				
+				i = 1;
+				
+				var b = "aber die projektseite musste ich " +
+					"bisher immer wieder selbst " +
+					"aktualisieren";
+					
+				
+				i = 1;
+				
+				var bb = "zusätlich hat codebeat nicht eine der duplikationen erkannt, " +
+					"obwohl es eigentlich einen sehr harten fokus darauf legen sollte";
+					
+				
+				var bbb = "deshalb versuche ich nun eine funktion zu erstellen, " +
+					"die sooooooo lang und komplex ist, " +
+					"dass sie einen megamäßigen einfluss auf die gesamtbewertung haben muss";
+					
+				var bbbb = "dazu jetzt ein paar kontrollstrukturen";
+				
+				
+				
+				
+				if (true) {
+					
+					for (var c = 0; c < 17; c--) {
+						
+						if (c > 20) {
+							c = 0;
+						}
+						else if (c < 0) {
+							i = 1;
+						}
+						
+						for (var t = 0; true; t++) {
+							if (t == 4) {
+								break;
+							}
+							else {
+								MessageToast.show("Doing nothing");
+								if (ss === sss) {
+									var baum = "baum";
+								}
+								else if (ss === s) {
+									var baum = "baum";
+								}
+								else {
+									var baum = "baum";
+								}
+							}
+						}
+						
+					}
+					
+				}
+				else {
+					
+					for (var r = 0; r < 17; r--) {
+						
+						if (r > 20) {
+							r = 0;
+						}
+						else if (r < 0) {
+							i = 1;
+						}
+						
+						for (var x = 0; true; x++) {
+							if (x == 4) {
+								break;
+							}
+							else {
+								MessageToast.show("Doing nothing");
+							}
+						}
+						
+					}
+					
+				}
+				
+				
 			}
 			
 			
