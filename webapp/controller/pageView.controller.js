@@ -13,7 +13,6 @@ sap.ui.define([
 
 		onImagePress : function(oEvent) {
 			MessageToast.show("Baum");
-			MessageToast.show("Baum");
 			this.byId("treeCarousel").next();
 		},
 		
