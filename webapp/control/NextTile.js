@@ -55,18 +55,18 @@ sap.ui.define([
 				this.fireEvent("press");
 			},
 			
-			renderer : function(oRm, oControl) {
-				oRm.write("<div");
+			renderer : function(oRn, oControl) {
+				oRn.write("<div");
 				
-				oRm.writeControlData(oControl);
-				oRm.writeClasses();
+				oRn.writeControlData(oControl);
+				oRn.writeClasses();
 				
-				oRm.write(">");
+				oRn.write(">");
 				
-				oRm.renderControl(oControl.getAggregation("_text"));
-				oRm.renderControl(oControl.getAggregation("_tile"));
+				oRn.renderControl(oControl.getAggregation("_text"));
+				oRn.renderControl(oControl.getAggregation("_tile"));
 				
-				oRm.write("</div>");
+				oRn.write("</div>");
 			}
 			
 			
