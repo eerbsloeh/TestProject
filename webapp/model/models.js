@@ -4,8 +4,6 @@ sap.ui.define([
 ], function (JSONModel, Device) {
 	"use strict";
 
-	var sDuplication = "This string is just here to be duplicated";
-
 	return {
 
 		createDeviceModel: function () {

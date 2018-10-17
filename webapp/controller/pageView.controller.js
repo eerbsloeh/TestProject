@@ -27,7 +27,6 @@ sap.ui.define([
 			var iPage = parseInt(sPage.substring(5, 6), 10);
 			
 			var oImage = this.byId("page" + iPage + "_image");
-			var oList = this.byId("page" + iPage + "_list");
 			
 			MessageToast.show(oImage.getSrc());
 			
