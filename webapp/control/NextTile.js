@@ -27,6 +27,13 @@ sap.ui.define([
 			
 			init : function() {
 				
+				var tile = new GenericTile({
+					press : this._onPress.bind(this)
+				});
+				tile.setHeader(this.getHeader());
+				this.oDescriptionText = new Text();
+				tile.addTileContent(new TileContent().setContent(this.oDescriptionText));
+				this.setAggregation("_tile", tile);
 				var oTile = new GenericTile({
 					press : this._onPress.bind(this)
 				});
