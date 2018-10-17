@@ -1,0 +1,1 @@
+C:\Users\eerbsloeh\Desktop\sonar-scanner-cli-3.2.0.1227-windows\sonar-scanner-3.2.0.1227-windows\bin\sonar-scanner.bat -Dsonar.projectKey=eerbsloeh_TestProject -Dsonar.organization=eerbsloeh-github -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=b81872d78a894299203ee0d7ec8b635433e0bffa
