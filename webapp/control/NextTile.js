@@ -55,6 +55,10 @@ sap.ui.define([
 				this.fireEvent("press");
 			},
 			
+			_onTest : function() {
+				this.fireEvent('press');
+			},
+			
 			renderer : function(oRn, oControl) {
 				oRn.write("<div");
 				
