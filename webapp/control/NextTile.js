@@ -56,7 +56,7 @@ sap.ui.define([
 			},
 			
 			_onTest : function() {
-				this.fireEvent("press);
+				this.fireEvent("press");
 			},
 			
 			renderer : function(oRn, oControl) {
